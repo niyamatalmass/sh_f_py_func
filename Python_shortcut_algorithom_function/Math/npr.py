@@ -13,5 +13,3 @@ def npr(n, r):
 	# we wrap with int because we perform divide operation that will produce fraction. and we want just numbers
 	# you can ignore int() wrap also if problem accept decimal
 	return int(factorial(n) / factorial(n-r))
-
-npr = npr(32, 3)
