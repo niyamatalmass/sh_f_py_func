@@ -8,12 +8,4 @@ def factorial(n):
 
 
 # also you can use python library for that 
-
-t = int(input())
-
 from math import factorial
-
-for i in range(t):
-    n = int(input())
-    
-    print(factorial(n))
